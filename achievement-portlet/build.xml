@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<project name="achievement-portlet" basedir="." default="deploy">
+	<property file="build.custom.properties" />
+	<property file="build.properties" />
+	
+	<property name="project.dir" value="${liferay.sdk.home}" />
+	
+	<import file="${project.dir}/build-common-plugin.xml" />
+</project>

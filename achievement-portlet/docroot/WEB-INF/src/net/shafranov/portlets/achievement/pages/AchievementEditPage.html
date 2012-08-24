@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.3-strict.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="charset" content="UTF-8" />
+<title>Achievement</title>
+</head>
+<body>
+	<div>
+		<wicket:message key="edit.name.label"></wicket:message>
+		<span wicket:id="name"></span>
+	</div>
+	<div>
+		<wicket:message key="edit.task.label"></wicket:message>
+		<span wicket:id="task"></span>
+	</div>
+	<div>
+		<wicket:message key="edit.length.label"></wicket:message>
+		<span wicket:id="length"></span>
+	</div>
+	<div>
+		<wicket:message key="edit.prize.label"></wicket:message>
+		<span wicket:id="prize"></span>
+	</div>
+	
+	<div class="view-button-container">
+		<input wicket:id="view_button" type="button" wicket:message="value:edit.view.button.text" />
+	</div>
+</body>
+</html>
