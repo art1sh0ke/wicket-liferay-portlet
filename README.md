@@ -27,4 +27,7 @@ where LIFERAY_SDK_HOME is the location of the Liferay Plugins SDK.
 You may try to run this example on Liferay 6.1.x as well. Just add the following line to liferay-plugin-package.properties:
 
     liferay-web-xml-enabled=false
-    
+
+## License
+
+The Achievement Portlet example is licensed under the [MIT License](/shafranov/wicket-liferay-portlet/blob/master/LICENSE).
