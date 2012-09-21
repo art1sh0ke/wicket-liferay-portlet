@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="view.text">Данный портлет создан для того, чтобы сообщить, что я,
+		{0}, успешно справился с выполнением задания "{1}", и мне
+		потребовалось для этого всего {2}. За данное достижение я, пожалуй,
+		куплю себе {3}.</entry>
+	<entry key="edit.name.label">Меня зовут: </entry>
+	<entry key="edit.task.label">Выполненная мной задача: </entry>
+	<entry key="edit.length.label">Сколько времени заняло выполнение: </entry>
+	<entry key="edit.prize.label">Что я куплю себе за это: </entry>
+	<entry key="edit.view.button.text">Просмотр</entry>
+	<entry key="help.text">Это портлет для показа какого-либо достижения,
+		разработанный с помощью Apache Wicket.</entry>
+	<entry key="defaultValue.name">Создатель Портлета</entry>
+	<entry key="defaultValue.task">Создание портлета</entry>
+	<entry key="defaultValue.length">несколько секунд</entry>
+	<entry key="defaultValue.prize">что-нибудь полезное</entry>
+</properties>

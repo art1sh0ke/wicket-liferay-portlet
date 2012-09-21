@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="achievementPortletController" class="org.springframework.web.portlet.mvc.PortletWrappingController">
+	    <property name="portletClass">
+	        <value>org.apache.wicket.protocol.http.portlet.WicketPortlet</value>
+	    </property>
+	</bean>
+
+	<bean class="org.springframework.web.portlet.handler.PortletModeHandlerMapping">
+	    <property name="portletModeMap">
+	        <map>
+	            <entry key="view" value-ref="achievementPortletController"></entry>
+	            <entry key="edit" value-ref="achievementPortletController"></entry>
+	            <entry key="help" value-ref="achievementPortletController"></entry>
+	        </map>
+	    </property>
+	</bean>
+
+</beans>

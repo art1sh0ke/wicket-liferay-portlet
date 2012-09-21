@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="view.text">This portlet was created to tell that I, {0},
+		successfully completed task "{1}", and it took only {2}. For that
+		accomplishment, I think, I will buy myself {3}.</entry>
+	<entry key="edit.name.label">My name is: </entry>
+	<entry key="edit.task.label">Accomplished task: </entry>
+	<entry key="edit.length.label">How much time did it take: </entry>
+	<entry key="edit.prize.label">What will I buy myself: </entry>
+	<entry key="edit.view.button.text">View</entry>
+	<entry key="help.text">Portlet for displaying an achievement, developed with
+		Apache Wicket.</entry>
+	<entry key="defaultValue.name">Portlet Creator</entry>
+	<entry key="defaultValue.task">Portlet creation</entry>
+	<entry key="defaultValue.length">several seconds</entry>
+	<entry key="defaultValue.prize">something useful</entry>
+</properties>

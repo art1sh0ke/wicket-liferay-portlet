@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<portlet-app
+	version="2.0"
+	xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+>
+	<portlet>
+		<portlet-name>spring_achievement</portlet-name>
+		<display-name>Spring Achievement</display-name>
+		<portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+	    <init-param>
+	        <name>contextConfigLocation</name>
+	        <value>/WEB-INF/achievementPortletContext.xml</value>
+	    </init-param>
+		<init-param>
+    		<name>wicketFilterPath</name>
+    		<value>/spring_achievement</value>
+		</init-param>
+		<init-param>
+        	<name>viewPage</name>
+        	<value>/spring_achievement/view</value>
+	    </init-param>
+    	<init-param>
+        	<name>editPage</name>
+        	<value>/spring_achievement/edit</value>
+    	</init-param>
+    	<init-param>
+        	<name>helpPage</name>
+        	<value>/spring_achievement/help</value>
+    	</init-param>         
+		<expiration-cache>0</expiration-cache>
+		<supports>
+        	<mime-type>text/html</mime-type>
+        	<portlet-mode>VIEW</portlet-mode>
+        	<portlet-mode>EDIT</portlet-mode>
+        	<portlet-mode>HELP</portlet-mode>
+    	</supports>
+    	<supports>
+        	<mime-type>text/xml</mime-type>
+        	<portlet-mode>VIEW</portlet-mode>
+        	<portlet-mode>EDIT</portlet-mode>
+        	<portlet-mode>HELP</portlet-mode>
+    	</supports>
+    	<supported-locale>en</supported-locale>
+    	<supported-locale>ru</supported-locale>
+    	<portlet-info>
+			<title>Spring Achievement</title>
+			<short-title>Spring Achievement</short-title>
+			<keywords>Spring Achievement</keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>
