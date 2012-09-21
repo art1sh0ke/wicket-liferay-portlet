@@ -15,4 +15,7 @@
 	<entry key="defaultValue.task">Portlet creation</entry>
 	<entry key="defaultValue.length">several seconds</entry>
 	<entry key="defaultValue.prize">something useful</entry>
+	<entry key="value.prize.iceCream">ice cream</entry>
+	<entry key="value.prize.iPhone5">iPhone 5</entry>
+	<entry key="value.prize.newShoes">new shoes</entry>
 </properties>

@@ -10,6 +10,8 @@ import org.apache.wicket.Page;
 import org.apache.wicket.RequestContext;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.protocol.http.portlet.PortletRequestContext;
+import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
+
 
 /**
  * Portlet application for displaying an achievement.
@@ -20,6 +22,9 @@ public class AchievementPortletApp extends WebApplication {
 
     @Override
     protected void init() {
+        // initialize Spring
+        addComponentInstantiationListener(new SpringComponentInjector(this));
+
         // pages for processing different portlet's modes
         mountBookmarkablePage("/view", AchievementViewPage.class);
         mountBookmarkablePage("/edit", AchievementEditPage.class);

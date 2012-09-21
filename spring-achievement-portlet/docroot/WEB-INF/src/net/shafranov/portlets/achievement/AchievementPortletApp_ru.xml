@@ -16,4 +16,7 @@
 	<entry key="defaultValue.task">Создание портлета</entry>
 	<entry key="defaultValue.length">несколько секунд</entry>
 	<entry key="defaultValue.prize">что-нибудь полезное</entry>
+	<entry key="value.prize.iceCream">мороженое</entry>
+	<entry key="value.prize.iPhone5">iPhone 5</entry>
+	<entry key="value.prize.newShoes">новые ботинки</entry>
 </properties>

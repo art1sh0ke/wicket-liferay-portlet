@@ -5,4 +5,7 @@
 
     <bean id="achievementPortletApp" class="net.shafranov.portlets.achievement.AchievementPortletApp" />
 
+    <!-- Service for loading names of prizes -->
+    <bean class="net.shafranov.portlets.achievement.service.PrizeServiceImpl" />
+
 </beans>
