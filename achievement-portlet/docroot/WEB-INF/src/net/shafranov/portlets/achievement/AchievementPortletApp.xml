@@ -2,12 +2,12 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 	<entry key="view.text">This portlet was created to tell that I, {0},
-		successfully completed task "{1}", and it took only {2}. For that
-		accomplishment, I think, I will buy myself {3}.</entry>
+		successfully completed task "{1}", and it took only {2} to complete. 
+		For that accomplishment, I think, I will buy {3} for myself.</entry>
 	<entry key="edit.name.label">My name is: </entry>
 	<entry key="edit.task.label">Accomplished task: </entry>
 	<entry key="edit.length.label">How much time did it take: </entry>
-	<entry key="edit.prize.label">What will I buy myself: </entry>
+	<entry key="edit.prize.label">What will I buy for myself: </entry>
 	<entry key="edit.view.button.text">View</entry>
 	<entry key="help.text">Portlet for displaying an achievement, developed with
 		Apache Wicket.</entry>
