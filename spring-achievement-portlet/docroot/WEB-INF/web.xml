@@ -13,16 +13,6 @@
         <param-value>/WEB-INF/applicationContext.xml</param-value>
     </context-param>
 
-    <filter>
-        <filter-name>requestContextFilter</filter-name>
-        <filter-class>org.springframework.web.filter.RequestContextFilter</filter-class>
-    </filter>
-
-    <filter-mapping>
-        <filter-name>requestContextFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-
     <!-- Achievement Portlet Filter -->
 	<filter>
 		<filter-name>AchievementPortlet</filter-name>
